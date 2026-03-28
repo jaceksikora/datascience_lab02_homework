@@ -11,8 +11,11 @@ dependencies = [
     "jupyter",
     "matplotlib",
     "pandas",
+    "pandas-stubs~=2.2.3",
+    "psycopg2-binary>=2.9.11",
     "psycopg[binary]",
     "pyarrow",
     "ruff",
     "scipy",
+    "sqlalchemy>=2.0.48",
 ]
